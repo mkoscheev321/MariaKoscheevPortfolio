@@ -8,8 +8,8 @@ const PORTFOLIO_DATA = {
   tagline: "I think, therefore I",
   bio: "I like a little bit of this I like a little bit of that. I'm going to keep typing to show off the wrapping behavior of this bio without having to think of what to put down.",
   email: "mgkoscheev@gmail.com",
-  github: "mkoscheev321",
-  linkedin: "who likes linkedin",
+  github: "https://github.com/mkoscheev321",
+  linkedin: "https://linkedin.com/maria-koscheev",
   location: "Austin, TX",
 
   skills: [
