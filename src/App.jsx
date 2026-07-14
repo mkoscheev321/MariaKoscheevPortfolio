@@ -3,14 +3,14 @@ import "./index.css";
 
 
 const PORTFOLIO_DATA = {
-  name: "John Gillman",
+  name: "Maria Koscheev",
   title: "Professional Chud Maxxer",
   tagline: "I think, therefore I",
   bio: "I like a little bit of this I like a little bit of that. I'm going to keep typing to show off the wrapping behavior of this bio without having to think of what to put down.",
-  email: "wowza@gmail.com",
-  github: "hello-world",
+  email: "mgkoscheev@gmail.com",
+  github: "mkoscheev321",
   linkedin: "who likes linkedin",
-  location: "Albaquerque, NM",
+  location: "Austin, TX",
 
   skills: [
     "Chudmaxxing", "Larping", "Skill", "Other skill",
