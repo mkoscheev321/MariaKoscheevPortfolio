@@ -5,12 +5,12 @@
   --bg: #0d0d0d;
   --bg-2: #141414;
   --bg-3: #1e1e1e;
-  --border: #2a2a2a;
+  --border: #8e9ff4;
   --text: #e8e3d8;
   --text-muted: #7a746a;
-  --accent: #f0a500;
-  --accent-dim: rgba(240, 165, 0, 0.12);
-  --accent-glow: rgba(240, 165, 0, 0.3);
+  --accent: #8e9ff4;
+  --accent-dim: #008ff01f;
+  --accent-glow: #7500f04d;
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body: 'DM Sans', sans-serif;
@@ -233,7 +233,7 @@ img { max-width: 100%; }
   animation: spin linear infinite;
 }
 .ring-1 { width: 100%; height: 100%; animation-duration: 20s; }
-.ring-2 { width: 70%; height: 70%; border-color: rgba(240,165,0,0.2); animation-duration: 14s; animation-direction: reverse; }
+.ring-2 { width: 70%; height: 70%; border-color: #8b6bf64f; animation-duration: 14s; animation-direction: reverse; }
 .ring-3 { width: 40%; height: 40%; animation-duration: 8s; border-color: var(--accent); opacity: 0.5; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .deco-initials {
@@ -315,7 +315,7 @@ img { max-width: 100%; }
 .skill-tag {
   background: var(--accent-dim);
   color: var(--accent);
-  border: 1px solid rgba(240,165,0,0.25);
+  border: 1px solid #aa90ff4f;
   border-radius: 4px;
   padding: 0.3rem 0.75rem;
   font-family: var(--font-mono);
