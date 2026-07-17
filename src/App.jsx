@@ -4,7 +4,7 @@ import "./index.css";
 
 const PORTFOLIO_DATA = {
   name: "Maria Koscheev",
-  title: "Junior Computer Science Major",
+  title: "Junior Computer Science student at The University of Texas at Austin",
   tagline: "I think, therefore I",
   bio: "I like a little bit of this I like a little bit of that. I'm going to keep typing to show off the wrapping behavior of this bio without having to think of what to put down.",
   email: "mgkoscheev@gmail.com",
@@ -19,21 +19,30 @@ const PORTFOLIO_DATA = {
 
   projects: [
     {
-      title: "Weather Dashboard",
+      title: "Quest for Quinine",
       description:
-        "A real-time weather app using the OpenWeather API. Features 7-day forecasts, location search, and dark/light mode toggle.",
-      tech: ["React", "API Integration", "CSS Grid"],
+        "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
+      tech: ["C#", "Unity"],
       link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
       featured: true,
     },
     {
-      title: "Task Manager API",
+      title: "Bit Blast",
       description:
-        "A RESTful backend for a task management app, with user auth, CRUD operations, and persistent storage using PostgreSQL.",
-      tech: ["Node.js", "Express", "PostgreSQL", "JWT"],
+        "A falling-block puzzle game where bit-blocks drop onto an 8-bit register and perform logic gate operations on impact. Match the goal state to clear the register.",
+      tech: ["C#", "Unity", "Canva"],
       link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
       featured: true,
     },
+    {
+      title: "Blossom Dash",
+      description:
+        "This very site! Built with React and Vite, deployed via GitHub Pages. Designed with accessibility and performance in mind.",
+      tech: ["React", "Vite", "GitHub Pages"],
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
+      featured: false,
+    },
+    
     {
       title: "Portfolio Website",
       description:
@@ -42,14 +51,7 @@ const PORTFOLIO_DATA = {
       link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
       featured: false,
     },
-    {
-      title: "Recipe Finder",
-      description:
-        "A meal planning tool that suggests recipes based on ingredients you already have. Integrates with the Spoonacular API.",
-      tech: ["JavaScript", "HTML", "CSS", "Fetch API"],
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
-      featured: false,
-    },
+    
   ],
 
   experience: [
