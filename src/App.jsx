@@ -6,7 +6,7 @@ import "./index.css";
 * 
 */
 const PORTFOLIO_DATA = {
-  name: "Maria Koscheev",
+  name: "Maria Koscheev 2",
   title: "Junior Computer Science student at The University of Texas at Austin",
   tagline: "",
   bio: "I'm a computer science student at the University of Texas at Austin pursuing a B.S. in Computer Science with a Capstone in Game Development. ",
