@@ -13,8 +13,8 @@ const PORTFOLIO_DATA = {
   location: "Austin, TX",
 
   skills: [
-    "Chudmaxxing", "Larping", "Skill", "Other skill",
-    "More skill", "Fortnite", "Breathing", "Existing",
+    "Python", "Java", "Javascript", "C", "C#", "HTML/CSS", "PyGame", "Game Development", "UI/UX",
+   "Microsoft Office",  "Fluent Russian",
   ],
 
   projects: [
@@ -176,7 +176,7 @@ function About() {
           </div>
         </div>
         <div className="skills-panel">
-          <div className="skills-title">Technologies & Tools</div>
+          <div className="skills-title">Skills & Languages</div>
           <div className="skills-grid">
             {PORTFOLIO_DATA.skills.map(skill => (
               <span key={skill} className="skill-tag">{skill}</span>
