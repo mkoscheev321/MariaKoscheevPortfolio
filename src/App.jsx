@@ -9,8 +9,8 @@ const PORTFOLIO_DATA = {
   name: "Maria Koscheev",
   title: "Junior Computer Science student at The University of Texas at Austin",
   tagline: "",
-  bio: "I'm a computer science student at the University of Texas at Austin pursuing a B.S. in Computer Science with a Capstone in Game Development. " +
-    "\nI'm passionate about developing exciting and immersive games through my knwolage of programming and UI/UX. " +
+  bio: "I'm a computer science student at the University of Texas at Austin pursuing a B.S. in Computer Science with a Capstone in Game Development. ",
+  bio2: "I'm passionate about developing exciting and immersive games through my knwolage of programming and UI/UX. " +
     "My experience includes working within an interdisciplinary team to create a historically grounded educational "+
     "video game throughout the course of a semester. This fall semester I will be working with a new team to create a brand new game adapting a Japanese classic into video game format. " +
     "I'm actively looking for opportunities to grow as a programmer and contribute to innovative projects.",
@@ -177,6 +177,7 @@ function About() {
         <div className="about-text">
           <h2>A little about me</h2>
           <p>{PORTFOLIO_DATA.bio}</p>
+          <p>{PORTFOLIO_DATA.bio2}</p>
           <div className="about-meta">
             <span>📍 {PORTFOLIO_DATA.location}</span>
             <span>✉️ <a href={`mailto:${PORTFOLIO_DATA.email}`}>{PORTFOLIO_DATA.email}</a></span>
