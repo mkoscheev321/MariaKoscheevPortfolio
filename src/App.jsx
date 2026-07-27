@@ -1,12 +1,19 @@
 import { useState, useEffect, useRef } from "react";
 import "./index.css";
 
-
+/*
+* make a download my resume
+* 
+*/
 const PORTFOLIO_DATA = {
   name: "Maria Koscheev",
   title: "Junior Computer Science student at The University of Texas at Austin",
-  tagline: "I think, therefore I",
-  bio: "I like a little bit of this I like a little bit of that. I'm going to keep typing to show off the wrapping behavior of this bio without having to think of what to put down.",
+  tagline: "",
+  bio: "I'm a computer science student at the University of Texas at Austin pursuing a B.S. in Computer Science with a Capstone in Game Development. " +
+    "\nI'm passionate about developing exciting and immersive games through my knwolage of programming and UI/UX. " +
+    "My experience includes working within an interdisciplinary team to create a historically grounded educational "+
+    "video game throughout the course of a semester. This fall semester I will be working with a new team to create a brand new game adapting a Japanese classic into video game format. " +
+    "I'm actively looking for opportunities to grow as a programmer and contribute to innovative projects.",
   email: "mgkoscheev@gmail.com",
   github: "mkoscheev321",
   linkedin: "https://linkedin.com/maria-koscheev",
@@ -165,7 +172,7 @@ function Hero() {
 function About() {
   return (
     <Section id="about">
-      <div className="section-label">01 — About</div>
+      <div className="section-label"></div>
       <div className="about-grid">
         <div className="about-text">
           <h2>A little about me</h2>
@@ -196,9 +203,9 @@ function Projects() {
 
   return (
     <Section id="projects" className="projects-section">
-      <div className="section-label">02 — Projects</div>
+      <div className="section-label"></div>
       <div className="section-header">
-        <h2>Things I've Built</h2>
+        <h2>Projects</h2>
         <div className="filter-tabs">
           <button className={filter === "all" ? "active" : ""} onClick={() => setFilter("all")}>All</button>
           <button className={filter === "featured" ? "active" : ""} onClick={() => setFilter("featured")}>Featured</button>
@@ -234,8 +241,8 @@ function Projects() {
 function Experience() {
   return (
     <Section id="experience">
-      <div className="section-label">03 — Experience</div>
-      <h2>Where I've Worked</h2>
+      <div className="section-label"></div>
+      <h2>Experience</h2>
       <div className="timeline">
         {PORTFOLIO_DATA.experience.map((job, i) => (
           <div key={i} className="timeline-item">
@@ -258,7 +265,7 @@ function Experience() {
 function Contact() {
   return (
     <Section id="contact" className="contact-section">
-      <div className="section-label">04 — Contact</div>
+      <div className="section-label"></div>
       <div className="contact-inner">
         <h2>Let's Work Together</h2>
         <p>I'm currently open to new opportunities. Whether you have a project in mind, a question, or just want to say hi — my inbox is always open.</p>

@@ -7,13 +7,13 @@
   --bg-3: #1e1e1e;
   --border: #8e9ff4;
   --text: #e8e3d8;
-  --text-muted: #7a746a;
+  --text-muted: #b1b4c7;
   --accent: #8e9ff4;
   --accent-dim: #008ff01f;
   --accent-glow: #7500f04d;
 
   --font-display: 'Playfair Display', Georgia, serif;
-  --font-body: 'DM Sans', sans-serif;
+  --font-body: 'Trebuchet MS', sans-serif;
   --font-mono: 'DM Mono', monospace;
 
   --max-w: 1100px;
@@ -23,7 +23,7 @@
 }
 
 /* ── Reset ─────────────────────────────────────────────── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
@@ -287,7 +287,7 @@ img { max-width: 100%; }
   gap: 4rem;
   align-items: start;
 }
-.about-text p { color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1.05rem; }
+.about-text p { color: var(--text-muted); margin-bottom: 1.5rem;  margin-top: 1.5rem; font-size: 1.05rem; }
 .about-meta {
   display: flex;
   flex-direction: column;
@@ -304,12 +304,13 @@ img { max-width: 100%; }
   padding: 2rem;
 }
 .skills-title {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 1.25rem;
+    font-family: var(--font-display);
+    letter-spacing: .15em;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+    margin-top: 0rem;
+    font-weight: 700;
 }
 .skills-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .skill-tag {
