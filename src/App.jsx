@@ -7,7 +7,7 @@ import "./index.css";
 */
 const PORTFOLIO_DATA = {
   name: "Maria Koscheev",
-  title: "Junior Computer Science student at The University of Texas at Austin",
+  title: "Junior CS student at The University of Texas at Austin",
   tagline: "",
   bio: "I'm a computer science student at the University of Texas at Austin pursuing a B.S. in Computer Science with a Capstone in Game Development. ",
   bio2: "I'm passionate about developing exciting and immersive games through my knwolage of programming and UI/UX. " +
@@ -172,7 +172,7 @@ function Hero() {
 function About() {
   return (
     <Section id="about">
-      <div className="section-label"></div>
+      {/*<div className="section-label"></div>*/}
       <div className="about-grid">
         <div className="about-text">
           <h2>A little about me</h2>
@@ -204,7 +204,7 @@ function Projects() {
 
   return (
     <Section id="projects" className="projects-section">
-      <div className="section-label"></div>
+      {/*<div className="section-label"></div>*/}
       <div className="section-header">
         <h2>Projects</h2>
         <div className="filter-tabs">
@@ -242,7 +242,7 @@ function Projects() {
 function Experience() {
   return (
     <Section id="experience">
-      <div className="section-label"></div>
+      {/*<div className="section-label}"></div>*/}
       <h2>Experience</h2>
       <div className="timeline">
         {PORTFOLIO_DATA.experience.map((job, i) => (
@@ -266,7 +266,7 @@ function Experience() {
 function Contact() {
   return (
     <Section id="contact" className="contact-section">
-      <div className="section-label"></div>
+      {/*<div className="section-label"></div>*/}
       <div className="contact-inner">
         <h2>Let's Work Together</h2>
         <p>I'm currently open to new opportunities. Whether you have a project in mind, a question, or just want to say hi — my inbox is always open.</p>
