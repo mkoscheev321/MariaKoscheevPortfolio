@@ -138,11 +138,11 @@ img { max-width: 100%; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
   max-width: var(--max-w);
   margin: 0 auto;
   position: relative;
-  gap: 4rem;
+  gap: 6rem;
 }
 .hero-content { flex: 1; padding-top: 4rem; }
 .hero-eyebrow {

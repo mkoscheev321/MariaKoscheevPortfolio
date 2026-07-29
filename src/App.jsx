@@ -30,7 +30,7 @@ const PORTFOLIO_DATA = {
       description:
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
+      link: "https://github.com/mkoscheev321/Quest-For-Quinine",
       featured: true,
     },
     {
@@ -38,15 +38,15 @@ const PORTFOLIO_DATA = {
       description:
         "A falling-block puzzle game where bit-blocks drop onto an 8-bit register and perform logic gate operations on impact. Match the goal state to clear the register.",
       tech: ["C#", "Unity", "Canva"],
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
+      link: "https://github.com/ivanna-utexas/BitBlast",
       featured: true,
     },
     {
       title: "Blossom Dash",
       description:
-        "This very site! Built with React and Vite, deployed via GitHub Pages. Designed with accessibility and performance in mind.",
-      tech: ["React", "Vite", "GitHub Pages"],
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
+        "A flower-themed platformer game built in PyGame, utlizing in-game audio and score-keeping.",
+      tech: ["Python", "PyGame", "Codio"],
+      link: "https://github.com/mkoscheev321/FYA-Project-2.0",
       featured: false,
     },
     
