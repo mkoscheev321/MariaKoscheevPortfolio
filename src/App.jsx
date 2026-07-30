@@ -16,7 +16,7 @@ const PORTFOLIO_DATA = {
     "I'm actively looking for opportunities to grow as a programmer and contribute to innovative projects.",
   email: "mgkoscheev@gmail.com",
   github: "mkoscheev321",
-  linkedin: "https://linkedin.com/maria-koscheev",
+  linkedin: "https://linkedin.com/in/maria-koscheev",
   location: "Austin, TX",
 
   skills: [
@@ -55,7 +55,7 @@ const PORTFOLIO_DATA = {
       description:
         "This very site! Built with React and Vite, deployed via GitHub Pages. Designed with accessibility and performance in mind.",
       tech: ["React", "Vite", "GitHub Pages"],
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ",
+      link: "https://github.com/mkoscheev321/MariaKoscheevPortfolio",
       featured: false,
     },
     
@@ -63,22 +63,32 @@ const PORTFOLIO_DATA = {
 
   experience: [
     {
-      role: "Existing Professional",
-      company: "Mom's Basement",
-      period: "2005 – 2022; 2023 - Present",
+      role: "UI/UX Designer",
+      company: "JAPANLAB GAMES INITIATIVE INTERNSHIP",
+      period: "Apr 2026 - Present",
       bullets: [
-        "Mastered the art of cooking pizza rolls in the microwave",
-        "Maintained a 100% success rate of not talking to people",
-        "SHUT UP MOMMMMM, SILENCE FROM YOU, YOU ARE CUT OFF, FROM TALKING", 
+        "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game’s core mechanics and responsive UI components using Unity and C#.",
+        "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
+        "Collaborated cross-functionally with engineers, designers, and researchers to integrate front-end systems with backend logic, contributing to a semester-long project to produce a classroom-ready game.", 
       ],
     },
     {
-      role: "CEO",
-      company: "Nvidia",
-      period: "2022 – 2023",
+      role: "Gameplay Programmer and UI/UX Designer",
+      company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE INTERNSHIP",
+      period: "Oct 2025 - May 2026",
       bullets: [
-        "Briefly locked in and got a j*b",
-        "Decided it wasn't for me and went back to being a chud",
+        "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game's core mechanics and responsive UI components using Unity and C#.",
+        "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
+        "Collaborated cross-functionally with engineers, designers, and researchers to integrate front-end systems with backend logic, contributing to a semester-long project to produce a classroom-ready game.", 
+      ],
+    },
+    {
+      role: "Academy Participant",
+      company: "SEO TECH DEVELOPER FIRST YEAR ACADEMY",
+      period: "Feb 2026 - June 2026",
+      bullets: [
+        "Developed foundational software engineering and programming skills in Python, collaborating with another developer to build a fully functioning Python game in PyGame as a final project.",
+        "Proactively engaged in specialized mentorship geared toward preparing for competitive internships in the tech industry.",
       ],
     },
   ],
