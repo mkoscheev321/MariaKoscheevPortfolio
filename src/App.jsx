@@ -30,7 +30,7 @@ const PORTFOLIO_DATA = {
       description:
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
-      link: "https://github.com/mkoscheev321/Quest-For-Quinine",
+      link: "https://https://github.com/Misophonias/Quest-For-Quinine",
       featured: true,
     },
     {
@@ -62,13 +62,13 @@ const PORTFOLIO_DATA = {
   ],
 
   experience: [
-    {
+    {/*{
       role: "Web Developer and Researcher",
-      company: "JAPANLAB GAMES INITIATIVE INTERNSHIP",
-      period: "Apr 2026 - Present",
+      company: "Undergraduate Research Apprenticeship Program",
+      period: "August 2026 - Present",
       bullets: [
-        "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game’s core mechanics and responsive UI components using Unity and C#.",
-        "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
+        "Digitized, organized, and curated historical materials—including scripts, production programs, photographs, and reviews—to support the development of an open-access digital archive.",
+        "Designed and developed a public-facing scholarly website prototype, creating intuitive user interfaces and responsive layouts to improve accessibility and navigation of digital archival content.",
         "Collaborated cross-functionally with engineers, designers, and researchers to integrate front-end systems with backend logic, contributing to a semester-long project to produce a classroom-ready game.", 
       ],
     },
@@ -77,11 +77,12 @@ const PORTFOLIO_DATA = {
       company: "JAPANLAB GAMES INITIATIVE INTERNSHIP",
       period: "May 2026 - Present",
       bullets: [
-        "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game’s core mechanics and responsive UI components using Unity and C#.",
-        "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
-        "Collaborated cross-functionally with engineers, designers, and researchers to integrate front-end systems with backend logic, contributing to a semester-long project to produce a classroom-ready game.", 
+        "Led UI/UX design and implementation for a narrative-driven video game adapting a Japanese literary classic, designing intuitive interfaces and responsive UI systems in Unity using C#.",
+        "Designed and developed user-centered UI components, interaction flows, and visual feedback systems that enhanced player immersion while preserving the source material's themes and storytelling.",
+        "* Collaborated closely with designers, programmers, and writers to translate narrative and gameplay requirements into cohesive user experiences made for in-class educational use.", 
       ],
     },
+    */},
     {
       role: "Gameplay Programmer and UI/UX Designer",
       company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE INTERNSHIP",
@@ -172,7 +173,8 @@ function Hero() {
         <p className="hero-tagline">{PORTFOLIO_DATA.tagline}</p>
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary">View My Work</a>
-          <a href="#contact" className="btn btn-ghost">Get In Touch</a>
+          <a href="./Maria_Koscheev_Resume.pdf" download="Maria_Koscheev_Resume">Download my resume!</a>
+
         </div>
         <div className="hero-scroll-hint">
           <span>scroll</span>
