@@ -63,9 +63,19 @@ const PORTFOLIO_DATA = {
 
   experience: [
     {
-      role: "UI/UX Designer",
+      role: "Web Developer and Researcher",
       company: "JAPANLAB GAMES INITIATIVE INTERNSHIP",
       period: "Apr 2026 - Present",
+      bullets: [
+        "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game’s core mechanics and responsive UI components using Unity and C#.",
+        "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
+        "Collaborated cross-functionally with engineers, designers, and researchers to integrate front-end systems with backend logic, contributing to a semester-long project to produce a classroom-ready game.", 
+      ],
+    },
+    {
+      role: "UI/UX Designer",
+      company: "JAPANLAB GAMES INITIATIVE INTERNSHIP",
+      period: "May 2026 - Present",
       bullets: [
         "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game’s core mechanics and responsive UI components using Unity and C#.",
         "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
