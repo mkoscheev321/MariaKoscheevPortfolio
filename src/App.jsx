@@ -30,7 +30,7 @@ const PORTFOLIO_DATA = {
       description:
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
-      link: "https://https://github.com/Misophonias/Quest-For-Quinine",
+      link: "https://https://github.com/mkoscheev321/Quest-For-Quinine",
       featured: true,
     },
     {
@@ -173,7 +173,7 @@ function Hero() {
         <p className="hero-tagline">{PORTFOLIO_DATA.tagline}</p>
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary">View My Work</a>
-          <a href="./Maria_Koscheev_Resume.pdf" download="Maria_Koscheev_Resume">Download my resume!</a>
+          <a href="/Maria_Koscheev_Resume.pdf" download="Maria_Koscheev_Resume.pdf">Download my resume!</a>
 
         </div>
         <div className="hero-scroll-hint">
