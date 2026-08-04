@@ -62,27 +62,7 @@ const PORTFOLIO_DATA = {
   ],
 
   experience: [
-    {/*{
-      role: "Web Developer and Researcher",
-      company: "Undergraduate Research Apprenticeship Program",
-      period: "August 2026 - Present",
-      bullets: [
-        "Digitized, organized, and curated historical materials—including scripts, production programs, photographs, and reviews—to support the development of an open-access digital archive.",
-        "Designed and developed a public-facing scholarly website prototype, creating intuitive user interfaces and responsive layouts to improve accessibility and navigation of digital archival content.",
-        "Collaborated cross-functionally with engineers, designers, and researchers to integrate front-end systems with backend logic, contributing to a semester-long project to produce a classroom-ready game.", 
-      ],
-    },
-    {
-      role: "UI/UX Designer",
-      company: "JAPANLAB GAMES INITIATIVE INTERNSHIP",
-      period: "May 2026 - Present",
-      bullets: [
-        "Led UI/UX design and implementation for a narrative-driven video game adapting a Japanese literary classic, designing intuitive interfaces and responsive UI systems in Unity using C#.",
-        "Designed and developed user-centered UI components, interaction flows, and visual feedback systems that enhanced player immersion while preserving the source material's themes and storytelling.",
-        "* Collaborated closely with designers, programmers, and writers to translate narrative and gameplay requirements into cohesive user experiences made for in-class educational use.", 
-      ],
-    },
-    */},
+    
     {
       role: "Gameplay Programmer and UI/UX Designer",
       company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE INTERNSHIP",
