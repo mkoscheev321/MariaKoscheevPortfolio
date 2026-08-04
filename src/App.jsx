@@ -16,7 +16,7 @@ const PORTFOLIO_DATA = {
     "I'm actively looking for opportunities to grow as a programmer and contribute to innovative projects.",
   email: "mgkoscheev@gmail.com",
   github: "mkoscheev321",
-  linkedin: "https://linkedin.com/in/maria-koscheev",
+  linkedin: "maria-koscheev",
   location: "Austin, TX",
 
   skills: [
@@ -173,9 +173,10 @@ function Hero() {
         <p className="hero-tagline">{PORTFOLIO_DATA.tagline}</p>
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary">View My Work</a>
-          <a href="/Maria_Koscheev_Resume.pdf" download="Maria_Koscheev_Resume.pdf" className="btn btn-secondary">
+          {/*<a href="/Maria_Koscheev_Resume.pdf" download="Maria_Koscheev_Resume.pdf" className="btn btn-secondary">
             Download my resume!
           </a>
+          */}
 
         </div>
         <div className="hero-scroll-hint">
