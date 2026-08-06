@@ -152,7 +152,7 @@ function Hero() {
         <div className="hero-title">{PORTFOLIO_DATA.title}</div>
         <p className="hero-tagline">{PORTFOLIO_DATA.tagline}</p>
         <div className="hero-actions">
-          <a href="#projects" className="btn btn-primary">View My Work</a>
+          <a href="#projects" className="btn btn-primary">View My Work!</a>
           <a href="/Maria_Koscheev_Resume.pdf" download="Maria_Koscheev_Resume.pdf" className="btn btn-secondary">
             Download my resume!
           </a>
