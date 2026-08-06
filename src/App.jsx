@@ -160,7 +160,7 @@ function Hero() {
           <a 
           href={`${import.meta.env.BASE_URL}Maria_Koscheev_Resume.pdf`}
           download="Maria_Koscheev_Resume.pdf"
-          className="btn btn-secondary"
+          className="btn btn-ghost"
         >
           Download my resume!
         </a>
