@@ -27,6 +27,7 @@ const PORTFOLIO_DATA = {
   projects: [
     {
       title: "Quest for Quinine",
+      image: "/BlossomDash.png",
       description:
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
@@ -35,6 +36,7 @@ const PORTFOLIO_DATA = {
     },
     {
       title: "Bit Blast",
+      image: "/BlossomDash.png",
       description:
         "A falling-block puzzle game where bit-blocks drop onto an 8-bit register and perform logic gate operations on impact. Match the goal state to clear the register.",
       tech: ["C#", "Unity", "Canva"],
@@ -43,6 +45,7 @@ const PORTFOLIO_DATA = {
     },
     {
       title: "Blossom Dash",
+      image: "/BlossomDash.png",
       description:
         "A flower-themed platformer game built in PyGame, utlizing in-game audio and score-keeping.",
       tech: ["Python", "PyGame", "Codio"],
@@ -52,6 +55,7 @@ const PORTFOLIO_DATA = {
     
     {
       title: "Portfolio Website",
+      image: "/BlossomDash.png",
       description:
         "This very site! Built with React and Vite, deployed via GitHub Pages. Designed with accessibility and performance in mind.",
       tech: ["React", "Vite", "GitHub Pages"],
@@ -235,6 +239,13 @@ function Projects() {
             <div className="project-card-inner">
               <div className="project-icon">⬡</div>
               <h3>{project.title}</h3>
+              {project.image && (
+                <img
+                  src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
+                  alt={`${project.title} screenshot`}
+                  className="project-image"
+                />
+              )}
               <p>{project.description}</p>
               <div className="project-tech">
                 {project.tech.map(t => <span key={t}>{t}</span>)}
