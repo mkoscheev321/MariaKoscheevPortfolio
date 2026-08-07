@@ -33,6 +33,7 @@ const PORTFOLIO_DATA = {
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
       link: "https://github.com/mkoscheev321/Quest-For-Quinine",
+      demo: null,
       featured: true,
     },
     {
@@ -42,6 +43,7 @@ const PORTFOLIO_DATA = {
         "A falling-block puzzle game where bit-blocks drop onto an 8-bit register and perform logic gate operations on impact. Match the goal state to clear the register.",
       tech: ["C#", "Unity", "Canva"],
       link: "https://github.com/ivanna-utexas/BitBlast",
+      demo: null,
       featured: true,
     },
     {
@@ -51,6 +53,7 @@ const PORTFOLIO_DATA = {
         "A flower-themed platformer game built in PyGame, utlizing in-game audio and score-keeping.",
       tech: ["Python", "PyGame", "Codio"],
       link: "https://github.com/mkoscheev321/FYA-Project-2.0",
+      demo: "https://youtu.be/C_PdhMrTQoU",
       featured: false,
     },
     
@@ -79,7 +82,7 @@ const PORTFOLIO_DATA = {
       ],
     },
     {
-      role: "Academy Participant",
+      role: "Academy Scholar",
       company: "SEO TECH DEVELOPER FIRST YEAR ACADEMY",
       period: "Feb 2026 - June 2026",
       bullets: [
@@ -157,13 +160,13 @@ function Hero() {
         <div className="hero-title">{PORTFOLIO_DATA.title}</div>
         <p className="hero-tagline">{PORTFOLIO_DATA.tagline}</p>
         <div className="hero-actions">
-          <a href="#projects" className="btn btn-primary">View My Work!</a>
+          <a href="#projects" className="btn btn-primary">View My Work</a>
           <a 
           href={`${import.meta.env.BASE_URL}Maria_Koscheev_Resume.pdf`}
           download="Maria_Koscheev_Resume.pdf"
           className="btn btn-ghost"
         >
-          Download my resume!
+          Download my resume
         </a>
           
 
