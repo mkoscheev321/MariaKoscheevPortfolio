@@ -45,7 +45,7 @@ const PORTFOLIO_DATA = {
     },
     {
       title: "Blossom Dash",
-      image: "/BlossomDash.png",
+      image: "/BlossomDash2.png",
       description:
         "A flower-themed platformer game built in PyGame, utlizing in-game audio and score-keeping.",
       tech: ["Python", "PyGame", "Codio"],
