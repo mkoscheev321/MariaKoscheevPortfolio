@@ -27,7 +27,7 @@ const PORTFOLIO_DATA = {
   projects: [
     {
       title: "Quest for Quinine",
-      image: "/BlossomDash.png",
+      image: "/QuestForQuinine.png",
       description:
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
@@ -36,7 +36,7 @@ const PORTFOLIO_DATA = {
     },
     {
       title: "Bit Blast",
-      image: "/BlossomDash.png",
+      image: "/BitBlast.png",
       description:
         "A falling-block puzzle game where bit-blocks drop onto an 8-bit register and perform logic gate operations on impact. Match the goal state to clear the register.",
       tech: ["C#", "Unity", "Canva"],
@@ -55,7 +55,7 @@ const PORTFOLIO_DATA = {
     
     {
       title: "Portfolio Website",
-      image: "/BlossomDash.png",
+      image: "/Portfolio.png",
       description:
         "This very site! Built with React and Vite, deployed via GitHub Pages. Designed with accessibility and performance in mind.",
       tech: ["React", "Vite", "GitHub Pages"],
