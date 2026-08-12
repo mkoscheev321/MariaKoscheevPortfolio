@@ -384,10 +384,9 @@ img { max-width: 100%; }
   background: linear-gradient(135deg, var(--accent-dim), transparent);
   opacity: 0;
   transition: opacity var(--transition);
-  pointer-events: none;
+  
 }
 .project-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
-.project-card:hover::before { opacity: 1; }
 .project-card.featured { border-color: #8e9ff4; }
 .project-card-actions {
   display: flex;
