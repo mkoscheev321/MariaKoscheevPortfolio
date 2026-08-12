@@ -259,7 +259,7 @@ function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-secondary btn-small"
+                  className="btn btn-primary btn-small"
                   onClick={(e) => e.stopPropagation()}
                 >
                   GitHub
@@ -269,7 +269,7 @@ function Projects() {
                     href={project.demo}
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-primary btn-small"
+                    className="btn btn-ghost btn-small"
                     onClick={(e) => e.stopPropagation()}
                   >
                     Live Demo
