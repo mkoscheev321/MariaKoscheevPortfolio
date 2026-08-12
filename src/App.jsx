@@ -231,7 +231,7 @@ function Projects() {
       </div>
       <div className="projects-grid">
         {filtered.map((project, i) => (
-          <a
+          <div
             key={project.title}
             href={project.link}
             target="_blank"
@@ -254,9 +254,30 @@ function Projects() {
               <div className="project-tech">
                 {project.tech.map(t => <span key={t}>{t}</span>)}
               </div>
-              <div className="project-link-hint">View on GitHub →</div>
+              <div className="project-card-actions">
+                 <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary btn-small"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  GitHub
+                </a>
+                {project.demo && (
+                    <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary btn-small"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    Live Demo
+                  </a>
+                )}
+              </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </Section>
