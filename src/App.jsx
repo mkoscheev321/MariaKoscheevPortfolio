@@ -43,7 +43,7 @@ const PORTFOLIO_DATA = {
         "A falling-block puzzle game where bit-blocks drop onto an 8-bit register and perform logic gate operations on impact. Match the goal state to clear the register.",
       tech: ["C#", "Unity", "Canva"],
       link: "https://github.com/ivanna-utexas/BitBlast",
-      demo: null,
+      demo: "https://youtu.be/lIhQ8ZRoKNo",
       featured: true,
     },
     {
