@@ -33,7 +33,7 @@ const PORTFOLIO_DATA = {
         "A historically grounded educational video game about a British explorer's adventure in the Peruvian jungle. Features resource management, quests, NPC interactions, and research-backed historical facts.",
       tech: ["C#", "Unity"],
       link: "https://github.com/mkoscheev321/Quest-For-Quinine",
-      demo: null,
+      demo: "https://youtu.be/wOVuPpNSvRQ",
       featured: true,
     },
     {
