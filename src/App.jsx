@@ -70,11 +70,21 @@ const PORTFOLIO_DATA = {
   ],
 
   experience: [
-    
     {
-      role: "Gameplay Programmer and UI/UX Designer",
-      company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE INTERNSHIP",
-      period: "Oct 2025 - May 2026",
+      role: "Lead UI/UX Designer, Minor Gameplay Programmer",
+      company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE",
+      period: "Aug 2026 - Present",
+      bullets: [
+        "Researching primary and secondary sources on medieval Japanese Buddhist cosmology to inform the visual and interactive design of a game depicting journeys through the Buddhist afterlife.",
+        "Designing UI/UX systems in Figma and Unity that translated complex religious and historical iconography into an intuitive, accessible player experience.",
+        "Programming core gameplay mechanics and interaction systems in C#/Unity to bring the research to life as an interactive teaching tool.",
+        "Contributing to a semester-long project bridging humanities research and game design, developing a playable prototype intended for use in university courses on Buddhist literature and history.", 
+      ],
+    },
+    {
+      role: "Lead Gameplay Programmer and UI/UX Designer",
+      company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE",
+      period: "Jan 2026 - May 2026",
       bullets: [
         "Lead end-to-end development of Quest for Quinine, a historically grounded educational video game, creating the game's core mechanics and responsive UI components using Unity and C#.",
         "Bridged the gap between design and development by innovating a custom UI framework that translated complex historical data into intuitive, interactive player interfaces.",
