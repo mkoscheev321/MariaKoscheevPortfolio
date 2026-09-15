@@ -82,6 +82,15 @@ const PORTFOLIO_DATA = {
       ],
     },
     {
+      role: "Program Assistant",
+      company: "UNIVERSITY OF TEXAS AT AUSTIN COMPUTER SCIENCE SUMMER ACADEMIES",
+      period: "June 2026",
+      bullets: [
+        "Fostered a collaborative, inclusive environment for 60+ 10th–12th grade students during each week-long machine learning summer camp session.",
+        "Provided one-on-one and small-group support on machine learning coursework, helping students debug code and work through concepts such as the perceptron algorithm and Q-learning algorithm.", 
+      ],
+    },
+    {
       role: "Lead Gameplay Programmer and UI/UX Designer",
       company: "JAPANLAB/EPOCH HISTORY GAMES INITIATIVE",
       period: "Jan 2026 - May 2026",
