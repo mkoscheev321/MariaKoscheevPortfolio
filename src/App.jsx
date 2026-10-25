@@ -37,6 +37,16 @@ const PORTFOLIO_DATA = {
       featured: true,
     },
     {
+      title: "Big Bad Wolf Inspection Agency",
+      image: "/bbwolf.jpg",
+      description:
+        "A satirical apartment inspector where the Big Bad Wolf analyzes Google Maps reviews of apartments using SerpAPI and rates them Brick, Sticks, or Straw quality.",
+      tech: ["SerpAPI", "GeminiAPI", "JavaScript", "CSS", "Python"],
+      link: "https://https://github.com/ivanna-utexas/Big_Bad_Wolf_Inspection_Agency",
+      demo: "https://youtu.be/aoPjeb7biwA",
+      featured: true,
+    },
+    {
       title: "Bit Blast",
       image: "/BitBlast.png",
       description:
@@ -44,7 +54,7 @@ const PORTFOLIO_DATA = {
       tech: ["C#", "Unity", "Canva"],
       link: "https://github.com/ivanna-utexas/BitBlast",
       demo: "https://youtu.be/lIhQ8ZRoKNo",
-      featured: true,
+      featured: false,
     },
     {
       title: "Blossom Dash",
