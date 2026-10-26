@@ -10,7 +10,7 @@ const PORTFOLIO_DATA = {
   title: "Junior CS student at The University of Texas at Austin",
   tagline: "",
   bio: "I'm a computer science student at the University of Texas at Austin pursuing a B.S. in Computer Science with a minor in Digital Game Industries. ",
-  bio2: "I'm passionate about developing exciting and immersive games through my knwolage of programming and UI/UX. " +
+  bio2: "I'm passionate about developing exciting and immersive games through my knowledge of programming and UI/UX, along with expanding my SWE expertise. " +
     "My experience includes working within an interdisciplinary team to create a historically grounded educational "+
     "video game throughout the course of a semester. This fall semester I will be working on two projects: creating a game adapting a Japanese classic into video game format, " +
     "and creating on a collaborative website that exhibits undergraduate research and allows for external contributions. " + 
