@@ -301,7 +301,7 @@ function Projects() {
                     className="btn btn-ghost btn-small"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    Live Demo
+                    Demo
                   </a>
                 )}
               </div>
