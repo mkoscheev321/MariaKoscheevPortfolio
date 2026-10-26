@@ -43,7 +43,7 @@ const PORTFOLIO_DATA = {
         "A satirical apartment inspector where the Big Bad Wolf analyzes Google Maps reviews of apartments using SerpAPI and rates them Brick, Sticks, or Straw quality.",
       tech: ["SerpAPI", "GeminiAPI", "JavaScript", "CSS", "Python"],
       link: "https://https://github.com/ivanna-utexas/Big_Bad_Wolf_Inspection_Agency",
-      demo: "https://youtu.be/aoPjeb7biwA",
+      demo: "https://youtu.be/ftOKRdh7FXU",
       featured: true,
     },
     {
